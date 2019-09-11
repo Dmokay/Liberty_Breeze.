@@ -8,23 +8,23 @@
     <meta name="keywords" content="">
     <title>Liberty Breeze</title>
     <!-- CSS -->
-    <link href="{{css('css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{css('css/font-awesome.min.css')}}" rel="stylesheet">
-    <link href="{{css('css/animate.min.css')}}" rel="stylesheet">
-    <link href="{{css('css/owl.carousel.css')}}" rel="stylesheet">
-    <link href="{{css('css/owl.transitions.css')}}" rel="stylesheet">
-    <link href="{{css('css/prettyPhoto.css')}}" rel="stylesheet">
-    <link href="{{css('css/main.css')}}" rel="stylesheet">
-    <link href="{{css('css/styles.css')}}" rel="stylesheet">
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/animate.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/owl.carousel.css')}}" rel="stylesheet">
+    <link href="{{asset('css/owl.transitions.css')}}" rel="stylesheet">
+    <link href="{{asset('css/prettyPhoto.css')}}" rel="stylesheet">
+    <link href="{{asset('css/main.css')}}" rel="stylesheet">
+    <link href="{{asset('css/styles.css')}}" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="{{images('images/ico/favicon.png')}}">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{images('images/ico/apple-touch-icon-144-precomposed.png')}}">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{images('images/ico/apple-touch-icon-114-precomposed.png')}}">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{images('images/ico/apple-touch-icon-72-precomposed.png')}}">
-    <link rel="apple-touch-icon-precomposed" href="{{images('images/ico/apple-touch-icon-57-precomposed.png')}}">
+    <link rel="shortcut icon" href="{{asset('images/ico/favicon.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset('images/ico/apple-touch-icon-144-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset('images/ico/apple-touch-icon-114-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset('images/ico/apple-touch-icon-72-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" href="{{asset('images/ico/apple-touch-icon-57-precomposed.png')}}">
 </head><!--/head-->
 
 <body id="home" class="homepage">
@@ -39,7 +39,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo2.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.html"><img src={{asset('images/logo2.png')}} alt="logo"></a>
                 </div>
                 
                 <div class="collapse navbar-collapse navbar-right">
@@ -874,16 +874,16 @@
         </div>
     </footer><!--/#footer-->
 
-    <script src="{{js('js/jquery.js')}}"></script>
-    <script src="{{js('js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('js/jquery.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-    <script src="{{js('js/owl.carousel.min.js')}}"></script>
-    <script src="{{js('js/mousescroll.js')}}"></script>
-    <script src="{{js('js/smoothscroll.js')}}"></script>
-    <script src="{{js('js/jquery.prettyPhoto.js')}}"></script>
-    <script src="{{js('js/jquery.isotope.min.js')}}"></script>
-    <script src="{{js('js/jquery.inview.min.js')}}"></script>
-    <script src="{{js('js/wow.min.js')}}"></script>
-    <script src="{{js('js/main.js')}}"></script>
+    <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('js/mousescroll.js')}}"></script>
+    <script src="{{asset('js/smoothscroll.js')}}"></script>
+    <script src="{{asset('js/jquery.prettyPhoto.js')}}"></script>
+    <script src="{{asset('js/jquery.isotope.min.js')}}"></script>
+    <script src="{{asset('js/jquery.inview.min.js')}}"></script>
+    <script src="{{asset('js/wow.min.js')}}"></script>
+    <script src="{{asset('js/main.js')}}"></script>
 </body>
 </html>
